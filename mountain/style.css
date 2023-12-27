@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu TAS Beginner', cursive;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container .logo{
+    display: flex;
+    background-color: #2c4243;
+    align-items: center;
+    justify-content: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.container .logo a{
+    width: 5%
+}
+.container .logo a img{
+    width: 100%;
+    transition: .3s;
+}
+.container .logo a img:hover{
+   transform: scale(1.05);
+}
+.container nav{
+    display: flex;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.container nav .menu-list{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.container nav .menu-list ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.container nav .menu-list ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    transition: .3s;
+}
+.container nav .menu-list ul li a:hover{
+    border-bottom: 1px solid black;
+}
+header .container{
+    width: 100%;
+    box-shadow: -2px 3px 7px 0px rgba(0, 0, 0, 0.884);
+}
+header .container .banner{
+    background: url(Img/slider.jpg);
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header .container .banner .content-container{
+    display: flex;
+    width: 100%;
+    margin-top: 13rem;
+}
+header .container .banner .content-container .content{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+header .container .banner .content-container .content .header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 45%;
+}
+header .container .banner .content-container .content .header-content h4{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+}
+header .container .banner .content-container .content .header-content h2{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+}
+header .container .banner .content-container .content .header-content span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    width: 85%;
+    margin-bottom: 2rem;
+}
+header .container .banner .content-container .content .header-content .btn a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 25px;
+    background-color: #fff;
+    transition: .3s;
+}
+header .container .banner .content-container .content .header-content .btn a:hover{
+    background-color: #aaaaaa;
+}
+section .online{
+    display: flex;
+    flex-direction: column;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+section .online .online-hdr{
+    text-align: center;
+    margin: 2rem 0;
+}
+section .online .online-hdr h2{
+    font-size: 35px;
+    font-weight: 400;
+    color: #2c4243;
+}
+section .online .online-card{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+}
+section .online .online-card .card-item-container{
+    display: flex;
+    flex-direction: column;
+}
+section .online .online-card .card-item-container .card-img a{
+    width: 50%;
+}
+section .online .online-card .card-item-container .card-img img{
+    width: 100%;
+    transition: .3s;
+}
+section .online .online-card .card-item-container .card-img img:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.59);
+}
+section .online .online-card .card-item-container .card-text{
+    display: flex;
+    flex-direction: column;
+}
+section .online .online-card .card-item-container .card-text span{
+   font-size: 18px;
+   margin-bottom: .5rem;
+}
+section .online .online-card .card-item-container .card-text a{
+    font-size: 18px;
+    display: inline-block;
+    width: 12%;
+    transition: .3s;
+}
+section .online .online-card .card-item-container .card-text a:hover{
+    border-bottom: 1px solid black;
+}
+section .online .online-more{
+    width: 100%;
+    text-align: center;
+    margin: 7rem 0;
+}
+section .online .online-more a{
+    color: #fff;
+    padding: 10px 50px;
+    background-color: #2c4243;
+    font-size: 18px;
+    transition: .3s;
+}
+section .online .online-more a:hover{
+    background-color: #456769;
+}
+section .card{
+    display: flex;
+    column-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+section .card .card-txt{
+    margin: 1rem  0 2rem 0;
+    font-size: 22px;
+}
+section .card .card-btn a{
+    font-size: 18px;
+    color: #fff;
+    transition: .3s;
+    padding: 10px 25px;
+    background-color: #2c4243;
+}
+section .card .card-btn a:hover{
+    background-color: #456769;
+}
+.app-header{
+    margin-top: 8rem;
+    background-size: cover;
+    background: url(Img/app.jpg);
+    width: 100%;
+    height: 70vh;
+}
+.line{
+    height: 1vh;
+    background-color: #ffffff;
+}
+footer{
+    background-color: #2c4243;
+    color: #fff;
+    padding: 3rem 2rem 1rem 2rem;
+}
+footer .content{
+    display: flex;
+    flex-direction: column;
+}
+footer .content .logo{
+    text-align: center;
+}
+footer .content .logo img{
+    scale: 80%;
+}
+footer .content .menu-list{
+    margin: 1rem 0 3rem 0;
+}
+footer .content .menu-list ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+footer .content .menu-list ul li a{
+    color: #ffffff;
+    font-size: 18px;
+    transition: .3s;
+}
+footer .content .menu-list ul li a:hover{
+    color: #a8a8a8;
+}
+footer .content .copy{
+    text-align: center;
+    font-size: 15px;
+}
